@@ -2,7 +2,6 @@ import argparse
 from tools import snus
 from tools import user
 from tools import ip
-from tools import pymap
 
 print("""\
  ▄▄▄▄    ██▀███   ██▓ ███▄    █   ▄████    ▓█████  ███▄ ▄███▓    ███▄    █ ▓█████ ▄▄▄       ██▀███  
@@ -31,11 +30,7 @@ while True:
                 user = Search for a username.
                 snus = Search Snusbase.
                 ip = Find IP location.
-                nmap = Python nmap medium.
                 """)
-
-        if command.lower() == "nmap":
-            pymap.py_map()
 
         if command.lower() == "ip":
             ip.ip_search()
