@@ -21,16 +21,19 @@ python BringEmNear.py
 ```
 From there, you have three commands available to use, they are as follows:
 
+#### user
 ```
 user
 ```
 This command will ask for a username to search. It operates very similar to Sherlock, but only includes the main social media platforms.
 
+#### snus
 ```
 snus
 ```
 Searches Snusbase, it will ask for which sort of search you would like to perform, and then ask for the parameters.
 
+#### ip
 ```
 ip
 ```
